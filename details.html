@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== ICON ===============-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="...">
+
+    <!--=============== SWIPER CSS ===============-->
+        <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Ecommerce Website</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+      <div class="header__top">
+          <div class="header__container container">
+              <div class="header__contact">
+                  <span>(+66)-2355-5567</span>
+                  <span>Our Location</span>
+              </div>
+              
+              <p class="header__alert-news">
+                  Super Valuer Deals - Save more with cupons
+              </p>
+              <a href="login-register.html" class="header__top-action">
+                  Log In / Sign Up
+              </a>
+          </div>
+      </div>
+
+      <nav class="nav container">
+          <a href="index.html" class="nav__logo">
+              <img src="assets/img/SwiftLogo.svg" alt="" class="nav__logo-img">
+          </a>
+
+          <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                  <li class="nav__item">
+                      <a href="index.html" class="nav__link">Home</a>
+                  </li>
+
+                  <li class="nav__item">
+                      <a href="shop.html" class="nav__link">Shop</a>
+                  </li>
+
+                  <li class="nav__item">
+                      <a href="accounts.html" class="nav__link">My Account</a>
+                  </li>
+
+                  <li class="nav__item">
+                      <a href="compare.html" class="nav__link">Compare</a>
+                  </li>
+
+                  <li class="nav__item">
+                      <a href="login-register.html" class="nav__link">Login</a>
+                  </li>
+
+              </ul>
+
+              <div class="header__search">
+                  <input type="text" placeholder="Search for items..." class="form__input">
+                  <button class="search__btn">
+                      <img src="assets/img/search.png" alt="">
+
+                  </button>
+              </div>
+          </div>
+
+          <div class="header__user-actions">
+              <a href="wishlist.html" class="header__action-btn">
+                  <img src="assets/img/iconheart.svg" alt="">
+                  <span class="count">3</span>
+              </a>
+
+              <a href="cart.html" class="header__action-btn">
+                  <img src="assets/img/iconcart.svg" alt="">
+                  <span class="count">3</span>
+              </a>
+
+          </div>
+      </nav>
+  </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== BREADCRUMB ===============-->
+      <section class="breadcrumb">
+        <ul class="breadcrumb__list flex container">
+          <li><a href="index.html" class="breadcrumb__link">Home</a></li>
+          <li><span class="breadcrumb__link">></span></li>
+          <li><span class="breadcrumb__link">Iphone</span></li>
+
+          <li><span class="breadcrumb__link">></span></li>
+          <li><span class="breadcrumb__link">Iphone 15 pro</span></li>
+        </ul>
+      </section>
+
+      <!--=============== DETAILS ===============-->
+      <section class="details">
+        <div class="details__container container grid">
+          <div class="details__group">
+            <img src="assets/img/IPH15.jpg" alt="" class="details__img">
+            <div class="details__small-images grid">
+              <img src="assets/img/IPH15FB.jpg" alt="" class="details__small-img">
+
+              <img src="assets/img/IPH15.jpg" alt="" class="details__small-img">
+
+              <img src="assets/img/IPH15FB.jpg" alt="" class="details__small-img">
+            </div>
+          </div>
+
+          <div class="details__group">
+            <h3 class="details__title">Iphone</h3>
+            <p class="details__brand">Brands: <span>Iphone 15 pro</span></p>
+
+            <div class="details__price flex">
+              <span class="new__price">TBH 23900</span>
+              <span class="old__price">TBH 24900</span>
+              <span class="save__price">TBH 1000</span>
+            </div>
+
+            <p class="short__description">Strong, Light, all-new titanium design. Our most advanced 48MP main camera. And A17 Pro - a game-changing chip.</p>
+
+            <ul class="product__list">
+              <li class="list__item flex">
+                <i class="fas fa-crown"></i>1 Year Warranty
+              </li>
+
+              <li class="list__item flex">
+                <i class="fas fa-sync-alt"></i>One month return policy
+              </li>
+
+              <li class="list__item flex">
+                <i class="far fa-credit-card"></i>Credit Card Available
+              </li>
+            </ul>
+
+            <div class="details__color flex">
+              <span class="details__color-title">Color</span>
+
+              <ul class="color__list">
+                <li>
+                  <a href="#" class="color__link" style="background-color: hsl(50, 2%, 52%);"></a>
+                </li>
+
+                <li>
+                  <a href="#" class="color__link" style="background-color: hsl(205, 22%, 46%);"></a>
+                </li>
+
+                <li>
+                  <a href="#" class="color__link" style="background-color: hsl(0, 0%, 89%);"></a>
+                </li>
+
+                <li>
+                  <a href="#" class="color__link" style="background-color: hsl(300, 1%, 20%);"></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="details__action">
+              <input type="number" class="quantity" value="1">
+
+              <a href="#" class="btn btn--sm">Add to Cart</a>
+
+              <a href="#" class="details__action-btn">
+                <i class="fas fa-heart"></i>
+              </a>
+            </div>
+
+            <ul class="details__meta">
+              <li class="meta__list flex"><span>IPH</span>FMW15VKT</li>
+              <li class="meta__list flex"><span>Tags:</span>Iphone, Pro</li>
+              <li class="meta__list flex"><span>Availability:</span>Instock</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== DETAILS TAB ===============-->
+      <section class="details__tab container">
+        <div class="detail__tabs">
+          <span class="detail__tab active-tab" data-target="#info">
+            Additional Info
+          </span>
+          <span class="detail__tab" data-target="#reviews">Reviews(3)</span>
+        </div>
+
+        <div class="details__tabs-content">
+          <div class="details__tab-content active-tab" content id="info">
+              <table class="info__table">
+                <tr>
+                  <th>Display</th>
+                  <td>6.1 inch Super Retina XDR display ProMotion technology</td>
+                </tr>
+
+                <tr>
+                  <th>Design</th>
+                  <td>Titanium with textured matte glass back</td>
+                </tr>
+
+                <tr>
+                  <th>Dynamic Island</th>
+                  <td>A magical way to interact with iPhone</td>
+                </tr>
+
+                <tr>
+                  <th>Chip</th>
+                  <td>A17Pro chip 6-core CPU,GPU 16-core Neural Engine</td>
+                </tr>
+
+                <tr>
+                  <th>Camera</th>
+                  <td>48MP main Ultra Wide Telephoto Super-high-resolution</td>
+                </tr>
+
+                <tr>
+                  <th>Safety</th>
+                  <td>Emergency SOS Crash Detection</td>
+                </tr>
+
+                <tr>
+                  <th>Battery Life</th>
+                  <td>Up to 23 hrs video playback</td>
+                </tr>
+
+                <tr>
+                  <th>Connectivity</th>
+                  <td>USB-C</td>
+                </tr>
+
+                <tr>
+                  <th>Optical Zoom</th>
+                  <td>Optical Zoom Options</td>
+                </tr>
+
+                <tr>
+                  <th>Secure Authentication</th>
+                  <td>Face ID</td>
+                </tr>
+
+                <tr>
+                  <th>Cellular</th>
+                  <td>Superfast 5G cellular</td>
+                </tr>
+
+                <tr>
+                  <th>Durability</th>
+                  <td>Ceramic Shield front, tougherthan any smartphone glass</td>
+                </tr>
+
+                <tr>
+                  <th>MagSafe</th>
+                  <td>Compatible with MagSafe cases, wallets, wireless chargers, and more</td>
+                </tr>
+              </table>
+          </div>
+
+          <div class="details__tab-content" content id="reviews">
+            <div class="reviews__container grid">
+              <div class="review__single">
+                <div>
+                  <img src="assets/img/avatar1.jpg" alt="" class="review__img">
+                  <h4 class="review__img">Kun Pat</h4>
+                </div>
+                  <div class="review__data">
+                    <div class="review__rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+
+                    <p class="review__description">Thank you very fast shipping from Store only 2 days</p>
+
+                    <span class="review__date">December 4,2023 at 3:12 pm</span>
+                  </div>
+                
+              </div>
+
+              <div class="review__single">
+                <div>
+                  <img src="assets/img/avatar2.jpg" alt="" class="review__img">
+                  <h4 class="review__img">Pinky</h4>
+                </div>
+                  <div class="review__data">
+                    <div class="review__rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+
+                    <p class="review__description">Reliable website to buy gadgets</p>
+
+                    <span class="review__date">January 4,2024 at 20:00 pm</span>
+                  </div>
+                
+              </div>
+
+              <div class="review__single">
+                <div>
+                  <img src="assets/img/avatar3.jpg" alt="" class="review__img">
+                  <h4 class="review__img">Alex</h4>
+                </div>
+                  <div class="review__data">
+                    <div class="review__rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+
+                    <p class="review__description">Reliable website to buy phone, the price also reasonable and fast delivery.</p>
+
+                    <span class="review__date">February 15,2024 at 8:00 am</span>
+                  </div>
+                
+              </div>
+            </div>
+
+            <div class="review__form">
+              <h4 class="review__form-title">Add a review</h4>
+
+              <div class="rate__product">
+                <div class="review__rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+
+                <form action="" class="form grid">
+                  <textarea class="form__input textarea" placeholder="Write comment"></textarea>
+
+                  <div class="form__group gird">
+                    <input type="text" placeholder="Name" class="form__input">
+
+                    <input type="email" placeholder="Email" class="form__input">
+                  </div>
+
+                  <div class="form__btn">
+                    <button class="btn">Submit Review</button>
+                  </div>
+                </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== PRODUCTS ===============-->
+      <section class="products container section--lg">
+        <h3 class="section__title"><span>Related </span>Products</h3>
+
+        <div class="products__container grid">
+          <div class="products__item">
+              <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                      <img src="assets/img/VisionPro.jpg" alt="" class="product__img default">
+
+                      <img src="assets/img/VisionPro1.jpg" alt="" class="product__img hover">
+                  </a>
+                  <div class="product__actions">
+                      <a href="#" class="action__btn" aria-label="Quick View">
+                          <i class="fas fa-eye"></i>
+                      </a>
+
+                      <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                          <i class="fas fa-heart"></i>
+                      </a>
+
+                      <a href="#" class="action__btn" aria-label="Compare">
+                          <i class="fas fa-random"></i>
+                      </a>
+                  </div>
+                      <div class="product__badge light-pink">Hot</div>
+              </div>
+              
+              <div class="product__content">
+                  <span class="product__category">Vision Pro</span>
+                  <a href="details.html">
+                      <h3 class="product__title">Apple Vision Pro</h3>
+                  </a>
+                  <div class="product__rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                  </div>
+                  <div class="product__price flex">
+                      <span class="new__price">TBH 50000</span>
+                      
+                  </div>
+                  <a href="#" class="action__btn cart__btn" aria-label="Add to cart">
+                      <i class="fas fa-shopping-bag"></i>
+                  </a>
+              </div>
+          </div>
+
+
+          <div class="products__item">
+              <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                      <img src="assets/img/AirpodPro.jpeg" alt="" class="product__img default">
+
+                      <img src="assets/img/AirPod.jpeg" alt="" class="product__img hover">
+                  </a>
+                  <div class="product__actions">
+                      <a href="#" class="action__btn" aria-label="Quick View">
+                          <i class="fas fa-eye"></i>
+                      </a>
+
+                      <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                          <i class="fas fa-heart"></i>
+                      </a>
+
+                      <a href="#" class="action__btn" aria-label="Compare">
+                          <i class="fas fa-random"></i>
+                      </a>
+                  </div>
+                      <div class="product__badge light-blue">Hot</div>
+              </div>
+              
+              <div class="product__content">
+                  <span class="product__category">Air Pod</span>
+                  <a href="details.html">
+                      <h3 class="product__title">Air Pod 3</h3>
+                  </a>
+                  <div class="product__rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                  </div>
+                  <div class="product__price flex">
+                      <span class="new__price">TBH 19900</span>
+                      <span class="old__price">TBH 19000</span>
+
+                  </div>
+                  <a href="#" class="action__btn cart__btn" aria-label="Add to cart">
+                      <i class="fas fa-shopping-bag"></i>
+                  </a>
+              </div>
+          </div>
+
+          <div class="products__item">
+              <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                      <img src="assets/img/SamsungGalaxywatch.jpeg" alt="" class="product__img default">
+
+                      <img src="assets/img/SamsungGalaxyWatch4.jpeg" alt="" class="product__img hover">
+                  </a>
+                  <div class="product__actions">
+                      <a href="#" class="action__btn" aria-label="Quick View">
+                          <i class="fas fa-eye"></i>
+                      </a>
+
+                      <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                          <i class="fas fa-heart"></i>
+                      </a>
+
+                      <a href="#" class="action__btn" aria-label="Compare">
+                          <i class="fas fa-random"></i>
+                      </a>
+                  </div>
+                      <div class="product__badge light-blue">-20%</div>
+              </div>
+              
+              <div class="product__content">
+                  <span class="product__category">Samsung Galaxy Watch 4</span>
+                  <a href="details.html">
+                      <h3 class="product__title">Smart Watch</h3>
+                  </a>
+                  <div class="product__rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                  </div>
+                  <div class="product__price flex">
+                      <span class="new__price">TBH 18900</span>
+                      <span class="old__price">TBH 19000</span>
+
+                  </div>
+                  <a href="#" class="action__btn cart__btn" aria-label="Add to cart">
+                      <i class="fas fa-shopping-bag"></i>
+                  </a>
+              </div>
+          </div>
+
+          <div class="products__item">
+              <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                      <img src="assets/img/Ipad.jpeg" alt="" class="product__img default">
+
+                      <img src="assets/img/Ipadair.jpeg" alt="" class="product__img hover">
+                  </a>
+                  <div class="product__actions">
+                      <a href="#" class="action__btn" aria-label="Quick View">
+                          <i class="fas fa-eye"></i>
+                      </a>
+
+                      <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                          <i class="fas fa-heart"></i>
+                      </a>
+
+                      <a href="#" class="action__btn" aria-label="Compare">
+                          <i class="fas fa-random"></i>
+                      </a>
+                  </div>
+                      <div class="product__badge light-blue">-22%</div>
+              </div>
+              
+              <div class="product__content">
+                  <span class="product__category">Ipad</span>
+                  <a href="details.html">
+                      <h3 class="product__title">Ipad Air 5th Gen</h3>
+                  </a>
+                  <div class="product__rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                  </div>
+                  <div class="product__price flex">
+                      <span class="new__price">TBH 23900</span>
+                      <span class="old__price">TBH 24000</span>
+
+                  </div>
+                  <a href="#" class="action__btn cart__btn" aria-label="Add to cart">
+                      <i class="fas fa-shopping-bag"></i>
+                  </a>
+              </div>
+          </div>
+
+      </div>
+      </section>
+
+      <!--=============== NEWSLETTER ===============-->
+      <section class="newsletter section">
+        <div class="newsletter__container container grid">
+            <h3 class="newsletter__title flex">
+                <img src="assets/img/icon-email.svg" alt="" class="newsletter__icon">
+                Sign up to Newsletter
+            </h3>
+            <p class="newsletter__description">
+                ...and receive TBH60 coupon for first shopping.
+            </p>
+            <form action="" class="newsletter__form">
+                <input type="text" placeholder="Enter your email" class="newsletter__input">
+                <button type="submit" class="newsletter__btn">Subscribe</button>
+            </form>
+        </div>
+     </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer container">
+      <div class="footer__container grid">
+          <div class="footer__content">
+              <a href="" class="footer__logo">
+                  <img src="assets/img/SwiftLogo.svg" alt="" class="footer__logo-img">
+              </a>
+              <h4 class="footer__subtitle">Contact</h4>
+              <p class="footer__description"><span>Address:</span>567 Sukhumvit Road</p>
+
+              <p class="footer__description"><span>Phone:</span>+66 025 678 76</p>
+
+              <p class="footer__description"><span>Open Hours</span>Mon-Sat, 10:00 - 20:00</p>
+
+              <div class="footer__social">
+                  <h4 class="footer__subtitle">Follow Me</h4>
+                  <div class="footer__social-links flex">
+                      <a href="">
+                          <img src="assets/img/icon-facebook.svg" alt="" class="footer__social-icon">
+                      </a>
+
+                      <a href="">
+                          <img src="assets/img/icon-twitter.svg" alt="" class="footer__social-icon">
+                      </a>
+
+                      <a href="">
+                          <img src="assets/img/icon-instagram.svg" alt="" class="footer__social-icon">
+                      </a>
+
+                      <a href="">
+                          <img src="assets/img/icon-youtube.svg" alt="" class="footer__social-icon">
+                      </a>
+                  </div>
+              </div>
+          </div>
+
+          <div class="footer__content">
+              <h3 class="footer__title">Address</h3>
+
+              <ul class="footer__links">
+                  <li><a href="" class="footer__link">About Us</a></li>
+                  <li><a href="" class="footer__link">Delivery Information</a></li>
+                  <li><a href="" class="footer__link">Privacy Policy</a></li>
+                  <li><a href="" class="footer__link">Terms & Condition</a></li>
+                  <li><a href="" class="footer__link">Contact Us</a></li>
+                  <li><a href="" class="footer__link">Support Center</a></li>
+              </ul>
+          </div>
+
+          <div class="footer__content">
+              <h3 class="footer__title">My Account</h3>
+
+              <ul class="footer__links">
+                  <li><a href="" class="footer__link">Sign In</a></li>
+                  <li><a href="" class="footer__link">View Cart</a></li>
+                  <li><a href="" class="footer__link">My Wishlist</a></li>
+                  <li><a href="" class="footer__link">Track my order</a></li>
+                  <li><a href="" class="footer__link">Help</a></li>
+                  <li><a href="" class="footer__link">Order</a></li>
+              </ul>
+          </div>
+
+          <div class="footer__content">
+              <h3 class="footer__title">Secured Payment Gateways</h3>
+              <img src="assets/img/payment-method.png" alt="" class="payment__img">
+          </div>
+      </div>
+
+      <div class="footer__bottom">
+          <p class="copyright">&copy; 2023 SwiftCart. All rights reserved</p>
+          <span class="designer">Designed by Moh</span>
+      </div>
+    </footer>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
